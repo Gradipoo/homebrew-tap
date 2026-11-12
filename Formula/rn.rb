@@ -3,8 +3,8 @@ class Rn < Formula
 
   desc "Keyboard-driven terminal UI for batch renaming"
   homepage "https://github.com/Gradipoo/tui-renamer"
-  url "https://files.pythonhosted.org/packages/10/01/7aa7bf2b8b9f0f4df2b921367911d257c761044b9abbecdcc1df0bece534/tui_renamer-0.1.11.tar.gz"
-  sha256 "5e32a5c4a917063c244b128c67e20d60ebb037b55e4d929451be8a89fbdb62ea"
+  url "https://files.pythonhosted.org/packages/86/71/cc8c4974d7c574caa43f967f786360036b2c9817a4682eb7bab3c47df1c9/tui_renamer-0.1.12.tar.gz"
+  sha256 "3dc719d2628a6d13e6d9a3ad110164d8402b346a5da661bd0553cb0ef5b8f7c3"
   license "GPL-3.0-only"
 
   depends_on "cmake" => :build
@@ -45,11 +45,6 @@ class Rn < Formula
   resource "pillow" do
     url "https://files.pythonhosted.org/packages/ce/a4/9cc30690a394a8305e8be4c9036aa16d0dfddadd09079860b582f562496d/pillow-13.0.0.tar.gz"
     sha256 "cdcd1ba258178f7356d74170c9a81ba4eab6a5d55748bc402a5a2a6fe6be3510"
-  end
-
-  resource "pillow-heif" do
-    url "https://files.pythonhosted.org/packages/44/c1/82145984920ca055675af2c2795bd30da6f7461215c41f3c1eacb3d66353/pillow_heif-1.8.1.tar.gz"
-    sha256 "521ebffb8a181d56c3904e5a61f20903edee0d9d3275967b8fb345f866215c06"
   end
 
   resource "platformdirs" do
