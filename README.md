@@ -7,3 +7,9 @@ Homebrew formulae for Gradipoo projects.
 ```bash
 brew install gradipoo/tap/rn
 ```
+
+`mkjxl` installs [tui-jxl-converter](https://github.com/Gradipoo/tui-jxl-converter). The formula also installs `jpeg-xl`.
+
+```bash
+brew install gradipoo/tap/mkjxl
+```
