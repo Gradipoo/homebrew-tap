@@ -3,8 +3,8 @@ class Rn < Formula
 
   desc "Keyboard-driven terminal UI for batch renaming"
   homepage "https://github.com/Gradipoo/tui-renamer"
-  url "https://files.pythonhosted.org/packages/c7/19/14a5ad318b4c494d5c6c50154ab988ba52cfabf8953957702e982c434803/tui_renamer-0.1.13.tar.gz"
-  sha256 "9e00ba731868901f61118ad4408e040f2c7c3cf3810b9955233edc01c887a8bd"
+  url "https://files.pythonhosted.org/packages/c9/df/54c5f0deafd2365823b3aebec48c69a8fcc331def8d9b48c7567235e7d99/tui_renamer-0.1.14.tar.gz"
+  sha256 "e79dce79a5b206639bc72a81a7a3f88afd986aa209a3e1cf9a1e25bc9ec4cd9b"
   license "GPL-3.0-only"
 
   depends_on "cmake" => :build
