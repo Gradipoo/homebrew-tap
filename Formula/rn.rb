@@ -3,8 +3,8 @@ class Rn < Formula
 
   desc "Keyboard-driven terminal UI for batch renaming"
   homepage "https://github.com/Gradipoo/tui-renamer"
-  url "https://github.com/Gradipoo/tui-renamer.git", revision: "6075055926402cafb997d07f62c008214da50c73"
-  version "0.1.18"
+  url "https://github.com/Gradipoo/tui-renamer.git", revision: "f764f861afb3b7ad79adfeca5bc8b485bc131579"
+  version "0.1.19"
   license "GPL-3.0-only"
 
   depends_on "cmake" => :build
